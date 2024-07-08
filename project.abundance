@@ -1590,8 +1590,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf Brace",
-            "x": 0.36243386243386244,
-            "y": 0.9164345403899721,
+            "x": 0.33730158730158727,
+            "y": 0.9415041782729805,
             "uniqueID": 1718659934469,
             "ioValues": [],
             "topLevel": false,
@@ -1860,11 +1860,21 @@
         },
         {
             "atomType": "Join",
-            "name": "Join",
-            "x": 0.5059523809523809,
-            "y": 0.8913649025069639,
+            "name": "Fusion",
+            "x": 0.39814814814814814,
+            "y": 0.7520891364902507,
             "uniqueID": 1720475746651,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1718659934469
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719592219581
+                }
+            ],
+            "unionType": "Fusion"
         }
     ],
     "allConnectors": [
@@ -1923,6 +1933,13 @@
             "ap2Primary": false,
             "ap1ID": 1719592219581,
             "ap2ID": 1719592453505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1719592219581,
+            "ap2ID": 1720475746651
         },
         {
             "ap1Name": "geometry",
@@ -1993,6 +2010,13 @@
             "ap2Primary": false,
             "ap1ID": 1718660317505,
             "ap2ID": 1718660294086
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1718659934469,
+            "ap2ID": 1720475746651
         },
         {
             "ap1Name": "geometry",
