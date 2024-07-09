@@ -772,7 +772,7 @@
             "atomType": "Molecule",
             "name": "T-Joint",
             "x": 0.057539682539682536,
-            "y": 0.8412256267409471,
+            "y": 0.8272980501392758,
             "uniqueID": 1718659961428,
             "ioValues": [],
             "topLevel": false,
@@ -1767,7 +1767,8 @@
                     "ap2ID": 1719443688476
                 }
             ],
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": []
         },
         {
             "atomType": "ExtractTag",
