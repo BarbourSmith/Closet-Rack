@@ -1909,6 +1909,136 @@
                     "source": "www.homedepot.com/curtainrod"
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Extract T-Connector",
+            "x": 0.8783068783068784,
+            "y": 0.6128133704735376,
+            "uniqueID": 1721685609058,
+            "ioValues": [
+                {
+                    "name": "Shape",
+                    "ioValue": 1718658829342
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1721685608500,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Shape",
+                    "x": 0.013333333333333334,
+                    "y": 0.36768802228412256,
+                    "uniqueID": 1721685608490,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.14219576719576718,
+                    "y": 0.7799442896935932,
+                    "uniqueID": 1721685648404,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.10515873015873016,
+                    "y": 0.5571030640668524,
+                    "uniqueID": 1721685674906,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718658829342
+                        }
+                    ],
+                    "tag": "T-Connector",
+                    "tagIndex": 1
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.2599206349206349,
+                    "y": 0.7520891364902507,
+                    "uniqueID": 1721685687518,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1721685648404
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 0.3637566137566138,
+                    "y": 0.5069637883008357,
+                    "uniqueID": 1721685700910,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1721685674906
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1721685687518
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1721685608490,
+                    "ap2ID": 1721685674906
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1721685648404,
+                    "ap2ID": 1721685687518
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1721685674906,
+                    "ap2ID": 1721685700910
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1721685687518,
+                    "ap2ID": 1721685700910
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -1995,6 +2125,13 @@
             "ap2Primary": true,
             "ap1ID": 1718658829342,
             "ap2ID": 1719601303748
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": 1718658829342,
+            "ap2ID": 1721685609058
         },
         {
             "ap1Name": "Geometry",
