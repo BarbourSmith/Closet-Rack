@@ -337,8 +337,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.47619047619047616,
-            "y": 0.6880222841225626,
+            "x": 0.4788359788359788,
+            "y": 0.6824512534818942,
             "uniqueID": 1718659016469,
             "ioValues": [
                 {
@@ -1637,8 +1637,8 @@
                     "ioValue": 1718658829342
                 }
             ],
-            "tag": "T-Connector",
-            "tagIndex": 2
+            "tag": "Shelf",
+            "tagIndex": 1
         },
         {
             "atomType": "Output",
