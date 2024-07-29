@@ -261,8 +261,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.49404761904761907,
-            "y": 0.41225626740947074,
+            "x": 0.49603174603174605,
+            "y": 0.430635838150289,
             "uniqueID": 1719592219581,
             "ioValues": [
                 {
@@ -337,8 +337,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.4788359788359788,
-            "y": 0.6824512534818942,
+            "x": 0.47949735449735453,
+            "y": 0.8641618497109828,
             "uniqueID": 1718659016469,
             "ioValues": [
                 {
@@ -583,16 +583,16 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5701058201058201,
-            "y": 0.649025069637883,
+            "x": 0.5773809523809523,
+            "y": 0.6502890173410405,
             "uniqueID": 1719592453505,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 1719592219581
+                    "name": "3D shape 3",
+                    "ioValue": 1720475746651
                 },
                 {
-                    "name": "3D shape 2",
+                    "name": "3D shape 4",
                     "ioValue": 1718659016469
                 }
             ],
@@ -1446,7 +1446,7 @@
             "atomType": "Molecule",
             "name": "Shelf Brace",
             "x": 0.33730158730158727,
-            "y": 0.9415041782729805,
+            "y": 0.9537572254335259,
             "uniqueID": 1718659934469,
             "ioValues": [],
             "topLevel": false,
@@ -1701,9 +1701,9 @@
         },
         {
             "atomType": "Join",
-            "name": "Fusion",
-            "x": 0.39814814814814814,
-            "y": 0.7520891364902507,
+            "name": "Assembly",
+            "x": 0.4656084656084656,
+            "y": 0.6878612716763006,
             "uniqueID": 1720475746651,
             "ioValues": [
                 {
@@ -1715,7 +1715,7 @@
                     "ioValue": 1719592219581
                 }
             ],
-            "unionType": "Fusion"
+            "unionType": "Assembly"
         },
         {
             "atomType": "Molecule",
@@ -2095,13 +2095,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1719592219581,
-            "ap2ID": 1719592453505
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 1719592219581,
@@ -2137,7 +2130,7 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 1718659016469,
             "ap2ID": 1719592453505
@@ -2204,6 +2197,13 @@
             "ap2Primary": false,
             "ap1ID": 1719950063265,
             "ap2ID": 1718658643538
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1720475746651,
+            "ap2ID": 1719592453505
         },
         {
             "ap1Name": "Geometry",
