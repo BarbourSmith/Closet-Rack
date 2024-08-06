@@ -1685,7 +1685,7 @@
                     "ioValue": 1718658829342
                 }
             ],
-            "tag": "Shelf",
+            "tag": "Plastic",
             "tagIndex": 0
         },
         {
@@ -1962,8 +1962,8 @@
         {
             "atomType": "Molecule",
             "name": "Extract T-Connector",
-            "x": 0.8353174603174603,
-            "y": 0.6128133704735376,
+            "x": 0.8357015985790409,
+            "y": 0.6183844011142061,
             "uniqueID": 1721685609058,
             "ioValues": [
                 {
@@ -2098,8 +2098,7 @@
                     "ap2ID": 1721685608500
                 }
             ],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Export",
@@ -2311,8 +2310,7 @@
                     "ap2ID": 1722278301609
                 }
             ],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Export",
